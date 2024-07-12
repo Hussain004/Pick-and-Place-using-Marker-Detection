@@ -21,6 +21,7 @@ The project consists of the following files:
 
 <h2> Installation and Setup </h2>
 Ensure that you have the following dependencies installed:
+
 1. ROS (Robotic Operating System)
 2. OpenCV
 3. Robomaster SDK
