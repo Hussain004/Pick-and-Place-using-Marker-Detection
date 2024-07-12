@@ -1,5 +1,7 @@
 <h1> Pick and Place Project using Marker Detection and PID Control </h1>
 
+![setup](setup.jpg)
+
 <h2> Overview </h2>
 This project utilizes a Robomaster robot, equipped with computer vision and sensor capabilities, to perform a pick and place task in a simulated environment. The robot is programmed to detect specific markers, navigate to them, grab an object, and then drop the object at another marker location.
 
