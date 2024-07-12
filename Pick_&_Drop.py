@@ -231,10 +231,10 @@ if __name__ == '__main__':
     for j in range(0, len(markers)):
         cv2.rectangle(img, markers[j].pt1, markers[j].pt2, (255, 255, 255))
         cv2.putText(img, markers[j].text, markers[j].center, cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255, 255, 255), 3)
-    # cv2.imshow("Markers", img)
-    # cv2.waitKey(1)
-    # time.sleep(1)
-    # cv2.destroyAllWindows()
+    cv2.imshow("Markers", img)
+    cv2.waitKey(1)
+    time.sleep(1)
+    cv2.destroyAllWindows()
     
     ep_sensor.sub_distance(freq=5, callback=sub_data_handler)
     time.sleep(1)

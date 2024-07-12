@@ -13,8 +13,9 @@ This project utilizes a Robomaster robot, equipped with computer vision and sens
 The project consists of the following files:
 
 - Pick_&_Drop.py: The main Python script that implements the pick and place logic, including marker detection, navigation, and object manipulation.
-- demo robot_pov.mp4: A video demonstration of the project in action.
 - setup.jpg: An image of the simulated environment and the Robomaster robot.
+- demo robot_pov.mp4: A video demonstration of the project in action from the robot's point of view.
+- demo third_person: A video demonstration of the project in action from a third person point of view.
 
 <h2> Installation and Setup </h2>
 Ensure that you have the following dependencies installed:
@@ -28,7 +29,7 @@ Ensure that you have the following dependencies installed:
 8. Build the ROS workspace using catkin_make or catkin build.
 9. Run the Pick_&_Drop.py script using the following command:
 10. Copy
-rosrun <your_package_name> Pick_&_Drop.py
+'rosrun <your_package_name> Pick_&_Drop.py'
 
 <h2> How the Code Works </h2>
 The Pick_&_Drop.py script performs the following steps:
