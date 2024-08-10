@@ -5,6 +5,10 @@
 <h2> Overview </h2>
 This project utilizes a Robomaster robot, equipped with computer vision and sensor capabilities, to perform a pick and place task in a simulated environment. The robot is programmed to detect specific markers, navigate to them, grab an object, and then drop the object at another marker location.
 
+
+https://github.com/user-attachments/assets/6f6e6d08-4494-4ad8-8fcf-1ae2fbe497a9
+
+
 <h2> Key Features </h2>
 - Real-time marker detection using computer vision
 - PID control for precise navigation and alignment with the markers
